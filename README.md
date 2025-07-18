@@ -9,6 +9,14 @@
 * ไปที่เว็บไซต์ [WildFly](https://wildfly.org/downloads/) (ซึ่งเป็นเวอร์ชันใหม่ของ JBoss) เพื่อดาวน์โหลดไฟล์ที่เหมาะสมกับระบบปฏิบัติการที่ใช้งาน
 * ดาวน์โหลดไฟล์ `.zip` หรือ `.tar.gz` และแตกไฟล์ไว้ในตำแหน่งที่ต้องการ
 
+```sh
+https://github.com/wildfly/wildfly/releases/download/36.0.1.Final/wildfly-36.0.1.Final.zip
+
+https://github.com/wildfly/wildfly/releases/download/36.0.1.Final/wildfly-36.0.1.Final.tar.gz
+
+tar -zxvf wildfly-36.0.1.Final.tar.gz
+```
+
 ### 2. **ตั้งค่าระบบหลังจากการติดตั้ง**
 
 * หลังจากการติดตั้งเสร็จสิ้น ให้เปิดคอนโซล (Command Prompt หรือ Terminal) และไปยังโฟลเดอร์ที่ติดตั้ง WildFly หรือ JBoss
